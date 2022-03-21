@@ -2774,7 +2774,7 @@ filter: grayscale(0);
 
 .about-card .col-xs-4{
 
-	height: 100px !important;
+	height: auto !important;
 
 
 
