@@ -331,6 +331,12 @@ nav ul{
 
 	background-blend-mode:normal;
 }
+.banner-2{
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/diversity-casual-teenager-team-success-winning-concept_53876-23003.webp') center/cover !important;
+	background-repeat: no-repeat;
+
+	background-blend-mode:normal;
+}
 
 
 
