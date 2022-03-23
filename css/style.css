@@ -3456,3 +3456,257 @@ filter: grayscale(0);
 .mt-5{
 	margin-top: 10px;
 }
+
+
+
+/* New CSS from zell */
+.section-about{
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+}
+.section-about-left{
+	padding: 0px 30px;
+}
+.section-about-left h3{
+	font-size: 25px;
+	color: var(--orange);
+	font-weight: bold;
+}
+.section-about-left p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.section-about .section-about-right{
+	background: #fff;
+	border-radius: 10px;
+}
+.section-about-right .section-about-right-content{
+	padding: 20px;
+}
+.with-saraf{
+	width: 100%;
+	position: relative;
+}
+.with-saraf .card-wrap{
+	position: relative;
+}
+.with-saraf .card{
+	position: relative;
+	height: auto;
+	background: transparent;
+	border: 1px solid var(--orange);
+	border-radius: 10px;
+}
+.with-saraf .ifrs-with-saraf-outer{
+	position: relative;
+	margin-top: 120px;
+}
+.with-saraf .ifrs-with-saraf-inner{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 30px 0;
+	background: #fff;
+	border-radius: 20px;
+}
+.with-saraf .ifrs-with-saraf-inner h3{
+	text-align: center;
+	color: var(--orange);
+}
+.ifrs-with-saraf-inner .ifrs-with-saraf-inner-content{
+	margin: 20px 60px;
+}
+.ifrs-with-saraf-inner-content ul{
+}
+.ifrs-with-saraf-inner-content ul li{
+	position: relative;
+	list-style: none;
+	padding-left: 30px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.ifrs-with-saraf-inner-content ul li::before{
+	position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--orange);
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+.ifrs-with-saraf-inner-content ul li::after{
+	width: 10px;
+    height: 10px;
+    position: absolute;
+    content: '';
+    background: var(--orange);
+    top: 50%;
+    left: 5px;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.expert-faculties{
+	width: 100%;
+}
+.expert-faculties h3{
+	text-align: center;
+	color: var(--orange);
+}
+.expert-faculties-comment{
+	position: relative;
+	margin-top: 30px;
+}
+.expert-faculties-comment .box-outer{
+	margin: 10px;
+}
+.expert-faculties-comment .box-inner{
+	height: auto;
+	/* width: 400px; */
+	position: relative;
+	border: 1px solid var(--orange);
+	border-radius: 10px;
+	margin: 30px 0;
+}
+.box-inner-top .col-md-4{
+	margin-bottom: 0px;
+}
+.box-inner .expert-img{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+}
+.expert-img img{
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+	top: -30px;
+	left: 20px;
+}
+.box-inner .expert-about{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.expert-about p{
+	font-size: 16px !important;
+	margin-right: 15px;
+}
+.box-inner .box-inner-bot{
+	margin: 20px;
+}
+.box-inner .expert-logo{
+	/* position: relative; */
+	height: 120px;
+	width: 120px;
+	object-fit: cover;
+	text-align: right;
+}
+.expert-logo img{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.box-inner .expert-desc p{
+	font-size: 13px !important;
+	text-align: justify;
+}
+.our-learning-platform{
+	width: 100%;
+	background: rgb(240, 240, 240);
+}
+.our-learning-platform h3{
+	text-align: center;
+	color: var(--orange);
+}
+.our-learning-platform .video{
+	width: 100%;
+}
+.our-learning-platform .video iframe{
+	width: 100%;
+	height: 300px;
+}
+.our-learning-platform .right-list{
+	display: flex;
+	height: 300px;
+	justify-content:flex-start;
+	align-items: center;
+	margin-left: 30px;
+}
+.our-learning-platform .right-list ul li{
+	list-style: none;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.our-learning-platform .right-list ul li::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background: var(--orange);
+	border-radius: 50%;
+}
+.our-learning-platform .right-list ul li::after{
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: 4px;
+	height: 6px;
+	width: 12px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	transform: rotate(-45deg);
+	background: transparent;
+
+}
+.career-support{
+	width: 100%;
+}
+.career-support h3{
+	text-align: center;
+	color: var(--orange);
+}
+.nav-tabs{
+	border-bottom: 1px solid var(--orange);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: 1px solid var(--orange);
+	border-bottom-color: transparent;
+}
+.nav-tabs>li>a:hover,.nav-tabs>li>a:focus{
+	border-bottom: 1px solid var(--orange);
+}
+.nav-tabs>li>a{
+	border-bottom: 1px solid var(--orange);
+	background-color: #eee;
+	color: #000;
+}
+.career-support .career-support-tab{
+	margin: 20px;
+}
+.career-support .career-support-tab .career-support-tab-content{
+	display: flex;
+	height: 300px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+@media only screen and (max-width:768px){
+	.our-learning-platform .video iframe{
+		width: 100%;
+		height: 185px;
+	}
+	.career-support .career-support-tab .career-support-tab-content{
+		height: 185px;
+	}
+	.with-saraf .ifrs-with-saraf-outer{
+		margin-top: 50px;
+	}
+	.nav-tabs>li>a{
+		width: 120px;
+		height: 100px;
+	}
+}
+/* New CSS from zell */
