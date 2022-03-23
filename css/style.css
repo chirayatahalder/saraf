@@ -3564,7 +3564,7 @@ filter: grayscale(0);
 	margin-top: 180px;
 }
 .ifrs-with-saraf-outer{
-	background: url('/images/distance_programm_bg.jpg');
+	background: url('../images/distance_programm_bg.jpg');
 	object-fit: cover;
 	background-size: cover;
 	background-position: center;
