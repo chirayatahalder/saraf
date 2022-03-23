@@ -7,7 +7,20 @@
 	padding: 0;
 
 }
-
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('../fonts/merriweather-bold-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('../fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 :root{
 
 	--orange:#F26522;
@@ -16,7 +29,10 @@
 
 body{
 
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+	/* font-family: 'Merriweather', serif; */
+	/* font-family: 'Merriweather Sans', sans-serif; */
+	font-family: 'merriweatherregular' !important;
 
 	overflow-x: hidden;
 
@@ -69,18 +85,22 @@ h5 {
 h1 {
 
     font-size:40px;
+	font-family: 'merriweatherregular' !important;
 
     /* font-weight: 1000; */
 
 }
-
+strong{
+	font-family: 'merriweatherregular';
+}
 h2 {
 
    font-size:34px ;
+   font-family: 'merriweatherregular';
 
    font-weight: 800 !important;
 
-   font-family: sans-serif !important;
+   /* font-family: sans-serif; */
 
    color:var(--orange);
 
@@ -93,6 +113,7 @@ h2 {
 h3{
 
 	font-size: 28px;
+	font-family: 'merriweatherregular';
 
    font-weight: 1000;
 
@@ -101,6 +122,7 @@ h3{
 h4 {
 
    font-size:19px;
+   font-family: 'merriweatherregular';
 
    font-weight: 1000;
 
@@ -112,6 +134,7 @@ h5 {
 
    font-size: ;
 
+   font-family: 'merriweatherregular';
       font-weight: 1000;
 
 
@@ -125,6 +148,7 @@ h5 {
 p{
 
   font-size:15px !important;
+  font-family: 'merriweatherregular' !important;
 
  
 
@@ -1915,24 +1939,28 @@ h1 {
 h1 strong{
 
 	color: #f26522 !important;
+	font-family: 'merriweatherbold';
 
 }
 
 h2 strong{
 
 	color: #f26522 !important;
+	font-family: 'merriweatherbold';
 
 }
 
 h3 strong{
 
 	color: #f26522 !important;
+	font-family: 'merriweatherbold';
 
 }
 
 h4 strong{
 
 	color: #f26522 !important;
+	font-family: 'merriweatherbold';
 
 }
 
@@ -2343,6 +2371,8 @@ h4 strong{
 .owl-carousel2 .item{
 
 	margin: 15px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	padding: 20px;
 
 }
 
@@ -3462,10 +3492,29 @@ filter: grayscale(0);
 /* New CSS from zell */
 .section-about{
 	width: 100%;
-	background-color: rgb(235, 235, 235);
+	/* background-color: rgb(235, 235, 235); */
+}
+.section-about .col-md-4{
+	margin-bottom: 0px;
+	padding-left: 0px;
 }
 .section-about-left{
 	padding: 0px 30px;
+}
+.about-outer .about-outer-about h2{
+	margin-bottom: 15px;
+}
+.about-outer{
+	box-shadow: 0px 0px 20px rgb(0 0 0 / 60%);
+}
+.about-outer .about-outer-about{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.about-outer .about-outer-about p{
+	line-height: 27px;
 }
 .section-about-left h3{
 	font-size: 25px;
@@ -3494,12 +3543,16 @@ filter: grayscale(0);
 	position: relative;
 	height: auto;
 	background: transparent;
-	border: 1px solid var(--orange);
+	box-shadow: #32325d40 0px 13px 27px -5px, #0000004d 0px 8px 16px -8px;
 	border-radius: 10px;
 }
 .with-saraf .ifrs-with-saraf-outer{
 	position: relative;
 	margin-top: 120px;
+}
+.ifrs-with-saraf-outer h2{
+	color: var(--orange);
+	text-align: center;
 }
 .with-saraf .ifrs-with-saraf-inner{
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -3524,26 +3577,27 @@ filter: grayscale(0);
 	margin-bottom: 10px;
 }
 .ifrs-with-saraf-inner-content ul li::before{
+	content: '';
 	position: absolute;
-    content: '';
-    width: 20px;
-    height: 20px;
-    border: 1px solid var(--orange);
-    top: 50%;
-    left: 0;
-    border-radius: 50%;
-    margin-top: -10px;
+	top: 2px;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background: var(--orange);
+	border-radius: 50%;
 }
 .ifrs-with-saraf-inner-content ul li::after{
-	width: 10px;
-    height: 10px;
-    position: absolute;
-    content: '';
-    background: var(--orange);
-    top: 50%;
-    left: 5px;
-    border-radius: 50%;
-    margin-top: -5px;
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 4px;
+	height: 6px;
+	width: 12px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	transform: rotate(-45deg);
+	background: transparent;
+
 }
 .expert-faculties{
 	width: 100%;
@@ -3693,6 +3747,53 @@ filter: grayscale(0);
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+.texti .item {
+    background-color: #f9f9f9;
+    padding: 20px;
+	
+}
+.stud-testi i {
+	display: block;
+	font-size: 20px;
+	color: var(--orange);
+}
+.stud-testi p {
+    color: #767575;
+    font-size: 14px;
+    margin: 5px 0;
+    height: 200px;
+}
+.fa-quote-right {
+	text-align: right;
+}
+.fa-quote-right:before {
+    content: "\f10e";
+}
+.fa-quote-left:before {
+    content: "\f10d";
+}
+.stud-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stud-info img {
+    margin-right: 15px;
+    width: 70px !important;
+}
+.stud-info h6 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 20px;
+}
+.stud-info h6 span {
+    display: block;
+    color: #767575;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+    line-height: 1;
 }
 @media only screen and (max-width:768px){
 	.our-learning-platform .video iframe{
