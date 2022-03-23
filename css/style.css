@@ -686,7 +686,6 @@ textarea{
 
 
 
-
 /* .industry{
 
 	background-color: #f1f1f1;
@@ -3495,6 +3494,7 @@ filter: grayscale(0);
 /* New CSS from zell */
 .section-about{
 	width: 100%;
+	padding-top: 80px;
 	/* background-color: rgb(235, 235, 235); */
 }
 .section-about .col-md-4{
