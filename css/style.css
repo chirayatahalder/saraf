@@ -161,6 +161,7 @@ ul li{
 	font-size: ;
 
 	font-weight: lighter;
+	font-family: 'merriweatherregular' !important;
 
 }
 
@@ -169,6 +170,7 @@ ul li{
 ol li{
 
 	font-size: ;
+	font-family: 'merriweatherregular' !important;
 
 }
 
@@ -176,7 +178,8 @@ ol li{
 
 li{
 
-	font-size: ;
+	
+	font-family: 'merriweatherregular' !important;
 
 }
 
