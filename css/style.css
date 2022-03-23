@@ -3504,8 +3504,8 @@ filter: grayscale(0);
 .section-about-left{
 	padding: 0px 30px;
 }
-.about-outer .about-outer-about h2{
-	margin-bottom: 15px;
+.about-outer .about-outer-about p{
+	margin-top: 15px;
 }
 .about-outer{
 	box-shadow: 0px 0px 20px rgb(0 0 0 / 60%);
