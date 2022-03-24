@@ -3861,9 +3861,15 @@ filter: grayscale(0);
 .img-box{
 	margin-top: 30px;
 }
+.col-xs-offset-3 {
+    margin-left: 0%;
+}
 @media only screen and (max-width:768px){
 	.banner h1{
 		font-size: 35px;
+	}
+	.col-xs-offset-3 {
+		margin-left: 25%;
 	}
 	.our-learning-platform .video iframe{
 		width: 100%;
