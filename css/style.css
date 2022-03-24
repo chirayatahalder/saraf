@@ -3837,6 +3837,9 @@ filter: grayscale(0);
 	box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     padding: 20px;
 }
+.img-box{
+	margin-top: 30px;
+}
 @media only screen and (max-width:768px){
 	.our-learning-platform .video iframe{
 		width: 100%;
