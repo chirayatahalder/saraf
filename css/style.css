@@ -3833,7 +3833,19 @@ filter: grayscale(0);
 	.ifrs-with-saraf-inner .ifrs-with-saraf-inner-content {
 		margin: 20px 30px;
 	}
+	.section-about {
+		top: 0px;
+	}
+	.with-saraf{
+		top: 0px;
+	}
 	.section-about .col-md-4{
+		display: none;
+	}
+	.about-outer .about-outer-about p{
+		text-align: justify;
+	}
+	.career-support img{
 		display: none;
 	}
 	.about-outer .about-outer-about{
@@ -3847,7 +3859,10 @@ filter: grayscale(0);
 	}
 	.nav-tabs>li>a{
 		width: 120px;
-		height: 100px;
+		height: 135px;
+	}
+	.mt-105{
+		margin-top: 105px;
 	}
 }
 /* New CSS from zell */
