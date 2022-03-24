@@ -3383,13 +3383,13 @@ filter: grayscale(0);
 		margin-bottom: 25px;
 
 	}
-	.t-process ul {
+	.t-process .row {
 		flex-direction: column;
 	}
-	.t-process ul li{
+	.t-process .row .t-process-inner{
 		margin-bottom: 40px;
 	}
-	.t-process ul li:not(:last-child):after{
+	.t-process .row .t-process-inner:not(:last-child):after{
 		transform: rotate(90deg);
 		/* right: 0%; */
 		left: 23%;
@@ -3424,15 +3424,15 @@ filter: grayscale(0);
 .t-process{
 	width: 100%;
 }
-.t-process ul{
-	list-style-type: none;
+.t-process .row{
+	/* list-style-type: none; */
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
-.t-process ul li{
+.t-process .row .t-process-inner{
 	height: 210px;
-    width: 170px;
+    width: 150px;
     display: flex;
 	text-align: left !important;
     /* justify-content: center; */
@@ -3446,13 +3446,13 @@ filter: grayscale(0);
     position: relative;
     padding: 30px 20px 20px 20px;
 }
-.t-process ul li span{
+.t-process .row .t-process-inner span{
 	position: absolute;
 	width: 55px;
 	bottom: 20px;
 	right: 20px;
 }
-.t-process ul li span img{
+.t-process .row .t-process-inner span img{
 	color: #fff;
 }
 }
@@ -3481,7 +3481,7 @@ filter: grayscale(0);
 	padding-right: 20px;
 
 } */
-.t-process ul li:hover::after{
+.t-process .row .t-process-inner:hover::after{
 	height: 70px;
 
     width: 70px;
@@ -3859,8 +3859,15 @@ filter: grayscale(0);
 		width: 100%;
 		height: 185px;
 	}
+	.t-process .row{
+		display: block;
+	}
 	.right-list{
 		margin-top: 70px;
+	}
+	.career-support ul{
+		display: flex;
+		overflow-x: scroll;
 	}
 	.about-outer{
 		margin: 10px;
@@ -3905,4 +3912,6 @@ filter: grayscale(0);
 		margin-top: 150px !important;
 	}
 }
+
+
 /* New CSS from zell */
