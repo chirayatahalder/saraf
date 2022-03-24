@@ -2676,25 +2676,30 @@ filter: grayscale(0);
 
 .proff img{
 
-	height: 40rem;
+	height: 25rem;
 
     margin: 0 auto;
 
     border: none;
 
-    border-radius: 15px;
+    border-radius: 50%;
 
     box-shadow: 0px 0px 10px -5px #626262;
 
 }
+
 
 .proff p{
 
 	font-weight: 500;
 
     font-family: sans-serif;
+	position: relative;
 
     line-height: 24px;
+	text-align: justify;
+	padding: 25px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
@@ -2722,7 +2727,7 @@ filter: grayscale(0);
 
 	position: relative;
 
-    margin-bottom: 20px;
+    margin-top: 50px;
 
 
 
@@ -3105,6 +3110,7 @@ filter: grayscale(0);
 	.proff p{
 
 		text-align: justify;
+		margin-top: 30px;
 
 	}
 
@@ -3783,6 +3789,11 @@ filter: grayscale(0);
 	font-size: 20px;
 	color: var(--orange);
 }
+.proff p i {
+	display: block !important;
+	font-size: 30px;
+	color: var(--orange);
+}
 .stud-testi p {
     color: #767575;
     font-size: 14px;
@@ -3821,6 +3832,10 @@ filter: grayscale(0);
     font-weight: 500;
     margin-top: 5px;
     line-height: 1;
+}
+.about .media{
+	box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px;
 }
 @media only screen and (max-width:768px){
 	.our-learning-platform .video iframe{
