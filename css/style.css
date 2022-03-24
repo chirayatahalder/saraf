@@ -3521,6 +3521,7 @@ filter: grayscale(0);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding: 10px 0px;
 }
 .about-outer .about-outer-about p{
 	line-height: 27px;
