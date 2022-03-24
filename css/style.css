@@ -339,6 +339,13 @@ nav ul{
   background-position: center;	
 
 }
+.banner h1{
+	font-size: 51px !important; 
+	line-height: 53px; 
+	font-family: 'Rubik', sans-serif !important; 
+	/* letter-spacing: 2.5px;  */
+	color: #fff !important;"
+}
 .banner-1{
 	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/happy-successful-ifrs.webp') center/cover !important;
 	background-repeat: no-repeat;
@@ -3855,6 +3862,9 @@ filter: grayscale(0);
 	margin-top: 30px;
 }
 @media only screen and (max-width:768px){
+	.banner h1{
+		font-size: 35px;
+	}
 	.our-learning-platform .video iframe{
 		width: 100%;
 		height: 185px;
