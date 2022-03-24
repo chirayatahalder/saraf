@@ -3434,7 +3434,8 @@ filter: grayscale(0);
 	height: 210px;
     width: 170px;
     display: flex;
-    justify-content: center;
+	text-align: left !important;
+    /* justify-content: center; */
     /* align-items: center; */
     background-color: var(--orange);
     color: #fff;
