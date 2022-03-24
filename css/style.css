@@ -72,8 +72,7 @@ h5 {
 h1 {
 
     font-size:40px;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
     /* font-weight: 1000; */
 
@@ -84,8 +83,7 @@ strong{
 h2 {
 
    font-size:34px ;
-   font-family: 'DM Serif Text', serif !important;
-   letter-spacing: 2.5px;
+   font-family: 'Rubik', sans-serif;
 
    font-weight: 800 !important;
 
@@ -102,8 +100,7 @@ h2 {
 h3{
 
 	font-size: 28px;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
    font-weight: 1000;
 
@@ -1931,32 +1928,28 @@ h1 {
 h1 strong{
 
 	color: #f26522 !important;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
 }
 
 h2 strong{
 
 	color: #f26522 !important;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
 }
 
 h3 strong{
 
 	color: #f26522 !important;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
 }
 
 h4 strong{
 
 	color: #f26522 !important;
-	font-family: 'DM Serif Text', serif !important;
-	letter-spacing: 2.5px;
+	font-family: 'Rubik', sans-serif;
 
 }
 
