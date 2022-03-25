@@ -73,6 +73,7 @@ h1 {
 
     font-size:40px;
 	font-family: 'Rubik', sans-serif;
+	
 
     /* font-weight: 1000; */
 
@@ -84,12 +85,12 @@ h2 {
 
    font-size:34px ;
    font-family: 'Rubik', sans-serif;
-
+	color: #000 !important;
    font-weight: 800 !important;
 
    /* font-family: sans-serif; */
 
-   color:var(--orange);
+   color: #000;
 
    /* color:var(--color-blue) ; */
 
@@ -347,7 +348,7 @@ nav ul{
 	color: #fff !important;"
 }
 .banner-1{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/happy-successful-ifrs.webp') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/happy-businesswoman.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
@@ -1796,7 +1797,7 @@ li{
 
 	font-weight: bold;
 
-	color:var(--color-blue) ;
+	color: #000 ;
 
 }
 
@@ -1943,6 +1944,7 @@ h2 strong{
 
 	color: #f26522 !important;
 	font-family: 'Rubik', sans-serif;
+	color: #000 !important;
 
 }
 
@@ -2618,6 +2620,7 @@ filter: grayscale(0);
 .why-us h2{
 
 	font-weight: 700 !important;
+	color: #000;
 
 }
 
@@ -3085,6 +3088,12 @@ filter: grayscale(0);
 }
 
 @media only screen and (max-width:426px) {
+	h2{
+		font-size: 28px;
+	}
+	h2 strong{
+		font-size: 28px;
+	}
 
 	.form-position{
 
@@ -3152,6 +3161,7 @@ filter: grayscale(0);
 	.placements h2{
 
 		padding: 0 10px;
+		color: #000;
 
 	}
 
@@ -3593,7 +3603,7 @@ filter: grayscale(0);
 	background-position: center;
 }
 .ifrs-with-saraf-inner h2{
-	color: var(--orange);
+	color: #000;
 	text-align: left;
 	margin-left: 70px;
 }
@@ -3715,7 +3725,7 @@ filter: grayscale(0);
 }
 .our-learning-platform h2{
 	text-align: center;
-	color: var(--orange);
+	color: #000;
 }
 .our-learning-platform .video{
 	width: 100%;
@@ -3765,7 +3775,7 @@ filter: grayscale(0);
 }
 .career-support h2{
 	text-align: center;
-	color: var(--orange);
+	color: #000;
 }
 .nav-tabs{
 	border-bottom: 1px solid var(--orange);
