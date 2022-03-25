@@ -86,7 +86,7 @@ h2 {
    font-size:34px ;
    font-family: 'Rubik', sans-serif;
 	color: #000 !important;
-   font-weight: 800 !important;
+   font-weight: 900 !important;
 
    /* font-family: sans-serif; */
 
@@ -142,6 +142,9 @@ p{
 
 }
 
+.banner h1 b{
+	font-weight: 600 !important;
+}
 
 
 ul li{
@@ -1943,8 +1946,9 @@ h1 strong{
 h2 strong{
 
 	color: #f26522 !important;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', sans-serif !important;
 	color: #000 !important;
+	font-weight: 900 !important;
 
 }
 
@@ -2619,7 +2623,7 @@ filter: grayscale(0);
 
 .why-us h2{
 
-	font-weight: 700 !important;
+	font-weight: 900 !important;
 	color: #000;
 
 }
