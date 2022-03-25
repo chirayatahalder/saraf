@@ -3098,6 +3098,12 @@ filter: grayscale(0);
 
 	}
 
+	.d-1{
+		display: none !important;
+	}
+	.d-2{
+		display: block !important;
+	}
 	.desktop p{
 
 		text-align: justify;
@@ -3860,6 +3866,12 @@ filter: grayscale(0);
 .about .media{
 	box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     padding: 20px;
+}
+.d-1{
+	display: block;
+}
+.d-2{
+	display: none;
 }
 .img-box{
 	margin-top: 30px;
