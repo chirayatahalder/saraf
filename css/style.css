@@ -3869,7 +3869,8 @@ filter: grayscale(0);
 }
 @media only screen and (max-width:768px){
 	.banner h1{
-		font-size: 35px;
+		font-size: 35px !important;
+		line-height: 37px !important;
 	}
 	.col-xs-offset-3 {
 		margin-left: 25%;
