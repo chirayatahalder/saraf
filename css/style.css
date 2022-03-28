@@ -3970,7 +3970,7 @@ filter: grayscale(0);
     color: #767575;
     font-size: 14px;
     margin: 5px 0;
-    height: 250px;
+    height: 300px;
 }
 .fa-quote-right {
 	text-align: right;
@@ -4027,7 +4027,7 @@ filter: grayscale(0);
 		line-height: 37px !important;
 	}
 	.testi-p{
-		height: 400px !important;
+		height: 420px !important;
 	}
 	.col-xs-offset-3 {
 		margin-left: 25%;
