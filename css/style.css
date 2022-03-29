@@ -4041,6 +4041,9 @@ filter: grayscale(0);
 		font-size: 35px !important;
 		line-height: 37px !important;
 	}
+	.proff h3::after{
+		left: 0%;
+	}
 	.about-outer-about-h{
 		height: 630px !important;
 	}
