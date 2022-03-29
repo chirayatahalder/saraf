@@ -4174,6 +4174,7 @@ filter: grayscale(0);
 	margin-right: 0;
 	background: #fff;
 	border: 1px solid #DDDDDD;
+	font-size: 15px;
 }
 @media (max-width: 768px) {
 	.responsive-tabs.nav-tabs > li.active a {
