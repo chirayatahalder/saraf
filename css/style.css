@@ -326,13 +326,13 @@ nav ul{
 
   /* background-image: url(https://via.placeholder.com/1919x539); */
 
-  background-image: url('../images/happy-successful-ACCA.jpg');
+  background-image: url('../images/1.jpg');
 
   height: 700px;
 
   padding-top: 100px 10px;
 
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
 
   background-blend-mode: overlay;
 
@@ -351,19 +351,19 @@ nav ul{
 	color: #fff !important;"
 }
 .banner-1{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/happy-businesswoman.jpg') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/2.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
 }
 .banner-2{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/diversity-casual-teenager-team-success-winning-concept_53876-23003.webp') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/3.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
 }
 .banner-3{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/happy-successful-ifrs.webp') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5) 100%),url('../images/4.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
