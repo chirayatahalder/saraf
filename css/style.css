@@ -4304,6 +4304,7 @@ filter: grayscale(0);
 .our-program-item-outer {
 	height: 400px;
 	position: relative;
+	box-shadow: 0 2px 5px 0 rgb(242 101 32 / 15%);
 }
 .our-program-item-outer.our-program-item-bg-1{
 	border-radius: 20px;
@@ -4354,6 +4355,7 @@ filter: grayscale(0);
 }
 .our-program-item-inner {
 	margin-top: 30px;
+	
 }
 .our-program-item-inner span {
 	margin-right: 15px !important;
