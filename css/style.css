@@ -378,6 +378,9 @@ nav ul{
 		height: inherit !important;
 
 	}
+	.etts .etts-logo-outer{
+		margin-top: 30px;
+	}
 
 }
 
@@ -3442,6 +3445,13 @@ filter: grayscale(0);
 	height: 600px;
 
 }
+.yt-video-1 iframe{
+
+	width: 100%;
+
+	height: 300px;
+
+}
 .media, .media-body{
 	overflow: inherit !important;
 }
@@ -4052,6 +4062,31 @@ filter: grayscale(0);
 		font-size: 35px !important;
 		line-height: 37px !important;
 	}
+	.home-about .row{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.home-about .home-about-card-inner img{
+		margin-bottom: 0px;
+	}
+	.l-support .l-support-btn span i{
+		font-size: 15px !important;
+	}
+	.l-support .l-support-btn span{
+		padding-right: 7px !important;
+	}
+	.l-support .l-support-btn a{
+		font-size: 12px !important;
+		padding: 15px 0 !important;
+	}
+	.l-support .l-support-btn{
+		width: 100% !important;
+	}
+	.why-saraf .why-saraf-card{
+		flex-direction: column;
+    text-align: center;
+	height: 210px !important; 
+	}
 	.proff h3::after{
 		left: 0%;
 	}
@@ -4187,6 +4222,10 @@ filter: grayscale(0);
 	.yt-video iframe {
 		height: 185px;
 	}
+	.yt-video-1 iframe {
+		height: 185px;
+		margin-top: 25px;
+	}
 }
 @media (min-width: 768px) {
 	.responsive-tabs.nav-tabs > li > a {
@@ -4242,3 +4281,386 @@ filter: grayscale(0);
 
 /* nav tab */
 /* New CSS from zell */
+
+
+
+/* index */
+.our-program{
+	width: 100%;
+}
+.our-program-card .item {
+    margin: 15px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    /* padding: 20px; */
+    border-radius: 20px;
+	transition: all 300ms ease-in-out;
+}
+.our-program-card .item:hover {
+    margin: 15px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 8px 12px 0px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+.our-program-item-outer {
+	height: 400px;
+	position: relative;
+}
+.our-program-item-outer.our-program-item-bg-1{
+	border-radius: 20px;
+	background: url("../images/1.jpg");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.our-program-item-outer.our-program-item-bg-2{
+	border-radius: 20px;
+	background: url("../images/2.jpg");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.our-program-item-outer.our-program-item-bg-3{
+	border-radius: 20px;
+	background: url("../images/3.jpg");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.our-program-item-outer.our-program-item-bg-4{
+	border-radius: 20px;
+	background: url("../images/4.jpg");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.our-program-item-outer.our-program-item-bg-5{
+	border-radius: 20px;
+	background: url("../images/9.jpg");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.our-program-item{
+	background: #fff;
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	border-radius: 10px;
+	padding: 20px 20px;
+	top: 160px;
+}
+.our-program-item h4 strong{
+	color: #000 !important;
+}
+.our-program-item-inner {
+	margin-top: 30px;
+}
+.our-program-item-inner span {
+	margin-right: 15px !important;
+}
+.our-program-item .know-more {
+	margin-top: 30px;
+}
+.our-program-item .know-more a {
+	text-decoration: none;
+	border: 2px solid var(--orange) !important;
+	color: var(--orange);
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+	transition: all 300ms ease-in-out;
+}
+.our-program-item .know-more a:hover {
+	text-decoration: none;
+	background: var(--orange);
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.our-program-item-inner div {
+	margin-top: 15px;
+	font-weight: bold;
+}
+.why-saraf{
+	width: 100%;
+}
+.why-saraf .why-saraf-card:hover img,
+.why-saraf .why-saraf-card:hover i{
+	filter: brightness(0) invert(1);
+}
+.why-saraf .why-saraf-card:hover h4 strong{
+	color: #fff !important;
+}
+.why-saraf .why-saraf-card:hover{
+	background: var(--orange);
+}
+.why-saraf .why-saraf-card img{
+	padding-top: 10px;
+	width: 80px;
+}
+.why-saraf .why-saraf-card i{
+	font-size: 60px;
+	color: var(--orange);
+	padding-top: 10px;
+}
+.why-saraf .why-saraf-card h4 strong{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000 !important;
+}
+.why-saraf .why-saraf-card{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 10px;
+	/* padding: 10px; */
+	height: 120px;
+	display: flex;
+	align-items: center;
+	transition: all 300ms ease-in-out;
+}
+.stud-testi i , svg{
+    display: block;
+    font-size: 20px;
+    color: var(--orange);
+}
+.review{
+	margin-top: 30px;
+}
+.review li{
+	list-style: none;
+	margin-bottom: 25px;
+}
+.review .review-wrap{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 50px;
+}
+.review p,
+.review span,
+.review .side-bar,
+.review img
+{
+	display: inline-block;
+}
+.review span i{
+	color: #ffc800;
+	font-size: 15px;
+	margin-top: 25px;
+}
+.review .side-bar{
+	margin-top: 10px;
+	height: 50px;
+	border-right: 1px solid grey;
+	padding-left: 20px;
+}
+.review p{
+	font-size: 35px !important;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.review img{
+	margin-top: 10px;
+	padding-left: 20px;
+	height: 100px;
+}
+.etts p{
+	margin-top: 30px;
+}
+.etts .know-more {
+	margin-top: 50px;
+}
+.etts .know-more a {
+	text-decoration: none;
+	border: 2px solid var(--orange) !important;
+	color: var(--orange);
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+	transition: all 300ms ease-in-out;
+}
+.etts .know-more a:hover {
+	text-decoration: none;
+	background: var(--orange);
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.etts .etts-logo-outer .col-md-4{
+	background: transparent;
+}
+.etts .etts-logo-outer{
+	background: url(../images/map.avif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.etts-logo-inner img{
+	/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+	height: 100px;
+	margin: 0 auto;
+}
+.l-support{
+	width: 100%;
+}
+.l-support p{
+	font-size: 20px !important;
+}
+.l-support .l-support-btn:hover i{
+	filter: opacity(0), brightness(1);
+}
+.l-support .l-support-btn:hover a{
+	color: #fff;
+}
+.l-support .l-support-btn:hover {
+	background-color: var(--orange);
+}
+.l-support .l-support-btn{
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px rgb(51 51 51 / 24%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	transition: all 300ms ease-in-out;
+}
+.l-support .l-support-btn span i{
+	font-size: 28px;
+}
+.l-support .l-support-btn span{
+	padding-right: 20px;
+}
+.l-support .l-support-btn a{
+	text-decoration: none;
+	color: var(--orange);
+	padding: 20px 0;
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home-about{
+	width: 100%;
+}
+.home-about .home-about-card-outer{
+	background: var(--orange);
+	border-radius: 40px;
+	padding: 10px 10px 0px 10px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.home-about-card-outer>div>div:nth-child(even){
+	padding: 40px;
+}
+.home-about-card-inner h2 strong{
+	color: #fff !important;
+	font-weight: 600 !important;
+	line-height: 45px;
+}
+.home-about-card-inner h2 strong span{
+	border-bottom: 3px solid #fff;
+}
+.home-about .home-about-card-inner p{
+	padding: 50px 40px 50px 0px;
+	color: #fff !important;
+}
+.home-about .home-about-card-inner img{
+	margin: 0 auto;
+	/* width: 100%; */
+}
+.home-about .home-about-card-inner a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	font-weight: 600;
+}
+.home-about .home-about-card-inner a i{
+	padding: 0px 0px 0px 10px;
+}
+/* our faculty 2 */
+.reviews {
+	display: block;
+}
+.reviews .border2 {
+	width: 100%;
+	height: 1px;
+	background-color: #3a3a3a;
+	border: none;
+}
+.reviews .review-box {
+	padding: 105px 20px 40px;
+}
+.reviews .testi p{
+	text-align: justify;
+}
+.reviews .testi button{
+	padding: 0px;
+}
+.reviews .testi {
+	margin-top: 7%;
+}
+.reviews .testi p i{
+	display: block !important;
+    font-size: 30px;
+    color: var(--orange);
+}
+@media only screen and (max-width: 480px) {
+	.reviews .testi {
+		margin-top: 2%;
+   }
+}
+.reviews .fa-chevron-down {
+	color: #000;
+}
+.reviews .moretext {
+	display: none;
+}
+.reviews button[type=button] {
+	background-color: transparent;
+	color: #000000;
+	border: none;
+}
+.reviews .face h3 {
+	font-family: 'Rubik', sans-serif !important;
+    font-weight: 1000;
+}
+.reviews .face img {
+	width: 20rem;
+	height: 20rem;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	background-color: transparent;
+	-webkit-perspective-origin: 0% 100%;
+	perspective-origin: 0% 100%;
+	-webkit-transform-origin: 5% 95%;
+	-ms-transform-origin: 5% 95%;
+	transform-origin: 5% 95%;
+	transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+	transform-style: preserve-3d;
+	transition: all .3s ease-in-out;
+}
+.reviews .face img:hover {
+	transform: translate3d(0px,0px,0px) scale3d(1.5,1.5,1.5) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+}
+.reviews .accordion-item {
+	background-color: transparent !important;
+}
+.reviews .accordion-item .accordion-button {
+	flex-direction: column;
+	align-items: flex-start !important;
+}
+.reviews .accordion-item .accordion-button::after {
+	margin-left: 0 !important;
+}
+
+/* our faculty 2 */
+/* index */
