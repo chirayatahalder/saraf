@@ -2922,6 +2922,22 @@ CALL
     <!-- open/close form(popup form)-->
 
     <script>
+        (function($) {
+            var $window = $(window),
+                $html = $('.dropdown');
+
+            $window.resize(function resize(){
+                if ($window.width() < 768) {
+                    return $html.addClass('open');
+                }
+                else{
+                    $html.removeClass('open');
+                }
+            })
+            // .trigger('resize');
+        })(jQuery);
+    </script>
+    <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
         }
