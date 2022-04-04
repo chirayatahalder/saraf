@@ -3,8 +3,8 @@
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap" rel="stylesheet">
 
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -328,13 +328,13 @@
     </nav>
 
     <!--banner-->
-    <div class="banner">
+    <div class="banner" style="display: none;">
         <div class="container desktop">
             <div class="row wrapper">
-                <div class="col-md-8 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="text">
                         <!-- <h1 style="font-family: sans-serif;">IFRS<br></h1> -->
-                        <br>
+
                         <h1>
                             <b>
                                 <!-- Earn the prestigious IFRS certification with Saraf Academy -->
@@ -343,12 +343,12 @@
                             </b>
                         </h1>
                         <br>
-                        <p style="margin-top: 30px;">
+                        <p>
                             <strong>3,000,000</strong> careers advanced<br>
                             <strong>1,500</strong> live classes every month<br>
                             <strong>85%</strong> report career benefits including promotion or a new job<br>
                         </p>
-                        <br>
+
                         <!-- <p>Regulated by Association of Chartered Certified Accountant, the largest global entity for
                             professional accountants and certified as ACCA, this qualification makes one highly
                             employable and industry relevant resource in the domains of International Financial
@@ -367,7 +367,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-6 banner-form form-position">
+                <div class="col-md-4 col-md-offset-2 col-sm-6 banner-form form-position">
                     <form action="insert.php" method="post" id="register-now" class="text-center"
                         novalidate="novalidate">
                         <input type="hidden" name="_token" value="PBtxxvax1LXRhK4IL3Cm8Nj0Tw3ggCUHxDiv7ZFh">
@@ -513,6 +513,94 @@
     <!--       </div>-->
     <!--   </div>         -->
     <!--</div>-->
+
+
+
+
+    <div class="new-banner" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="new-banner-left-outer">
+                        <div class="new-banner-left">
+                            <em>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </em>
+                            <img src="images/women-laptop.png" class="img-responsive" alt="">
+                            <img src="images/shape-semi-half-circle.png" class="shape img-responsive" alt="">
+                        </div>
+                        <!-- <img src="images/shape-triangle.png" class="img-responsive" alt=""> -->
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="new-banner-right-outer">
+                        <div class="new-banner-right">
+                            <h1><strong>
+                                    World's #1<br>
+                                    Accountancy<br>
+                                    Academy
+                                </strong></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis mollitia nesciunt
+                                animi minima veniam quos non architecto voluptatem. Asperiores, reiciendis?</p>
+                            
+                            <div class="banner-form form-position">
+                                <form action="insert.php" method="post" id="register-now" class="text-right"
+                                    novalidate="novalidate">
+                                    <input type="hidden" name="_token" value="PBtxxvax1LXRhK4IL3Cm8Nj0Tw3ggCUHxDiv7ZFh">
+                                    <h3 class="text-right" style="margin-bottom: 20px;text-transform: uppercase;font-size: 18px;">
+                                        Reach out to us</h3>
+                                    <div class="row">
+                                        <div class="text-left">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " name="name" placeholder="Full Name *"
+                                                    required>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " minlength="10" name="phone"
+                                                    placeholder="Phone Number *" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control " name="email" placeholder="Email *"
+                                                    required>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <!-- <input type="text" class="form-control " name="year"
+                                                    placeholder="Your Last Qualification*"> -->
+                                                    <select class="form-control" id="sel1" required>
+                                                        <option>Select Your Course *</option>
+                                                        <option>ACCA</option>
+                                                        <option>IFRS</option>
+                                                        <option>CIMA</option>
+                                                        <option>CGMA</option>
+                                                        <option>CMA</option>
+                                                        <option>CPA</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+            
+                                        <button type="submit" class="btn1" style="background-color:#F26522;"> Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -1343,7 +1431,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center"> <strong>Prepare for IFRS with our Experienced Faculty</strong></h2>
-                <div class="line "></div>
+                    <div class="line "></div>
                 </div>
             </div>
             <div class="review-box">
@@ -1446,18 +1534,24 @@
                                         </p>
                                         <p class="collapse multi-collapse" id="collapseExample">
                                             Our meticulously designed programs have
-                                            helped students to consistently achieve high scores National and Global rankings. We have
-                                            mentored over 50,000 students in the past 25 years and have developed the best curriculum
-                                            attuned to the ever changing complex business environment. We&#39;re here to make world-
-                                            class educational resources available to every student, at his or her doorstep across the
-                                            globe. We offer an exhilarating and enriching experience to the aspiring future global
+                                            helped students to consistently achieve high scores National and Global
+                                            rankings. We have
+                                            mentored over 50,000 students in the past 25 years and have developed the
+                                            best curriculum
+                                            attuned to the ever changing complex business environment. We&#39;re here to
+                                            make world-
+                                            class educational resources available to every student, at his or her
+                                            doorstep across the
+                                            globe. We offer an exhilarating and enriching experience to the aspiring
+                                            future global
                                             business citizens.<br>
-                                            <strong> So take the right turn, where your golden future is waiting for you.</strong>
+                                            <strong> So take the right turn, where your golden future is waiting for
+                                                you.</strong>
                                             <i class="fa fa-quote-right" aria-hidden="true"></i>
                                         </p>
 
-                                        <button class="any-btn" type="button" data-toggle="collapse" href="#collapseExample"><i
-                                                class="las la-angle-down"></i></button>
+                                        <button class="any-btn" type="button" data-toggle="collapse"
+                                            href="#collapseExample"><i class="las la-angle-down"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -1465,7 +1559,7 @@
                     </div>
                 </div>
             </div>
-            
+
 
         </div>
     </section>
@@ -1473,7 +1567,7 @@
 
     <script>
         // $('.any-btn').toggleClass('las la-angle-up');
-        $('.any-btn').click(function() {
+        $('.any-btn').click(function () {
             $(this).find('i').toggleClass('las la-angle-up las la-angle-down');
         });
     </script>
