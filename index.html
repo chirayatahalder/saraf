@@ -278,6 +278,8 @@
 
 <body>
 
+    
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG68FMH" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -329,6 +331,7 @@
                     <!--<li><a  href="#enquire">Apply Now</a></li>-->
                 </ul>
             </div>
+
             <!-- /.navbar-collapse -->
 
         </div>
@@ -2921,22 +2924,7 @@ CALL
 
     <!-- open/close form(popup form)-->
 
-    <script>
-        (function($) {
-            var $window = $(window),
-                $html = $('.dropdown');
-
-            $window.resize(function resize(){
-                if ($window.width() < 768) {
-                    return $html.addClass('open');
-                }
-                else{
-                    $html.removeClass('open');
-                }
-            })
-            // .trigger('resize');
-        })(jQuery);
-    </script>
+    
     <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
@@ -3227,11 +3215,11 @@ CALL
             }
         });
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(".navbar-nav a").click(function () {
             $(this).closest(".navbar-nav").parent().removeClass('in');
         });
-    </script>
+    </script> -->
 
     <!-- Magnific Popup core JS file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
