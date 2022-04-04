@@ -13,9 +13,7 @@
 
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,7 +298,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <img src="images/menu.png" width="40px" height="30px">
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/top-logo.png" alt="Saraf" style="width: 100px;" class="img-responsive img-logo">
                 </a>
                 <!-- <button data-toggle="modal" data-target="#applyModal" class="open-button nav-open-buttton-mobile">Apply
@@ -312,10 +310,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#industry">About the Program</a></li>
-                    <li><a href="#why">Course Structure</a></li>
-                    <li><a href="#about">Course Eligibility</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="acca.html">ACCA</a></li>
+                          <li><a href="ifrs.html">IFRS</a></li>
+                          <li><a href="cima.html">CIMA</a></li>
+                          <li><a href="cma-us.html">CMA</a></li>
+                          <li><a href="#">CPA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
                     <li><button type="button" data-toggle="modal" data-target="#applyModal"
                             class="open-button nav-open-buttton">Enquire Now</button></li>
                     <!--<li><a  href="#enquire">Apply Now</a></li>-->
@@ -605,7 +613,7 @@
 
 
     <!-- Explore Our Programs -->
-    <div class="our-program padtop">
+    <div class="our-program padtop" id="why" style="padding-top: 70px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12" style="margin-bottom: 30px;">

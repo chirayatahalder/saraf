@@ -295,7 +295,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <img src="images/menu.png" width="40px" height="30px">
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/top-logo.png" alt="Saraf" style="width: 100px;" class="img-responsive img-logo">
                 </a>
                 <!-- <button data-toggle="modal" data-target="#applyModal" class="open-button nav-open-buttton-mobile">Apply
@@ -307,10 +307,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#industry">About the Program</a></li>
-                    <li><a href="#why">Course Structure</a></li>
-                    <li><a href="#about">Course Eligibility</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="acca.html">ACCA</a></li>
+                          <li><a href="ifrs.html">IFRS</a></li>
+                          <li><a href="cima.html">CIMA</a></li>
+                          <li><a href="cma-us.html">CMA</a></li>
+                          <li><a href="#">CPA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
                     <li><button type="button" data-toggle="modal" data-target="#applyModal"
                             class="open-button nav-open-buttton">Enquire Now</button></li>
                     <!--<li><a  href="#enquire">Apply Now</a></li>-->
@@ -322,192 +332,87 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!--banner-->
-    <div class="banner">
-        <div class="container desktop">
-            <div class="row wrapper">
-                <div class="col-md-8 col-sm-6">
-                    <div class="text">
-                        <!-- <h1 style="font-family: sans-serif;">IFRS<br></h1> -->
-                        <br>
-                        <h1>
-                            <b>
-                                <!-- Earn the prestigious IFRS certification with Saraf Academy -->
-                                World's #1 <br>
-                                Accountancy Academy
-                            </b>
-                        </h1>
-                        <br>
-                        <p style="margin-top: 30px;">
-                            <strong>3,000,000</strong> careers advanced<br>
-                            <strong>1,500</strong> live classes every month<br>
-                            <strong>85%</strong> report career benefits including promotion or a new job<br>
-                        </p>
-                        <br>
-                        <!-- <p>Regulated by Association of Chartered Certified Accountant, the largest global entity for
-                            professional accountants and certified as ACCA, this qualification makes one highly
-                            employable and industry relevant resource in the domains of International Financial
-                            Regulatory Standards, Statutory Audit, Assurance, Risk Management and Control.</p>
-                        <br>
-                        <p> As an ACCA
-                            member, one is authorized to certify financial statements in 78 countries including entire
-                            Europe and the Middle East, Hong Kong, Singapore, China et al.</p>
-                        <br>
-                        <p> One can pursue this program
-                            right after X standard and complete the qualification by or before graduation.
-                            Simultaneously, one is conferred a B.Sc from Oxford Brookes University and an M.Sc from
-                            University of London.</p>
-                        <br> -->
-                        <!-- <a href="#about"><button style="background-color:#F26522;">Apply Now</button></a> -->
+    <div class="new-banner" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="new-banner-left-outer">
+                        <div class="new-banner-left">
+                            <em>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                                <i class="fa fa-quote-right" aria-hidden="true"></i>
+                            </em>
+                            <img src="images/women-laptop.png" class="img-responsive" alt="">
+                            <img src="images/shape-semi-half-circle.png" class="shape img-responsive" alt="">
+                        </div>
+                        <!-- <img src="images/shape-triangle.png" class="img-responsive" alt=""> -->
                     </div>
                 </div>
-
-                <div class="col-md-6 col-sm-6 banner-form form-position">
-                    <form action="insert.php" method="post" id="register-now" class="text-center"
-                        novalidate="novalidate">
-                        <input type="hidden" name="_token" value="PBtxxvax1LXRhK4IL3Cm8Nj0Tw3ggCUHxDiv7ZFh">
-                        <h3 class="text-center" style="margin-bottom: 20px;text-transform: uppercase;font-size: 18px;">
-                            Request a CAll back</h3>
-                        <div class="row">
-                            <div class="text-left">
-                                <div class="form-group">
-                                    <input type="text" class="form-control " name="name" placeholder="Full Name*"
-                                        required>
-                                </div>
+                <div class="col-md-7">
+                    <div class="new-banner-right-outer">
+                        <div class="new-banner-right">
+                            <h1><strong>
+                                    World's #1<br>
+                                    Accountancy<br>
+                                    Academy
+                                </strong></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis mollitia nesciunt
+                                animi minima veniam quos non architecto voluptatem. Asperiores, reiciendis?</p>
+                            
+                            <div class="banner-form form-position">
+                                <form action="insert.php" method="post" id="register-now" class="text-right"
+                                    novalidate="novalidate">
+                                    <input type="hidden" name="_token" value="PBtxxvax1LXRhK4IL3Cm8Nj0Tw3ggCUHxDiv7ZFh">
+                                    <h3 class="text-right" style="margin-bottom: 20px;text-transform: uppercase;font-size: 18px;">
+                                        Reach out to us</h3>
+                                    <div class="row">
+                                        <div class="text-left">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " name="name" placeholder="Full Name *"
+                                                    required>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " minlength="10" name="phone"
+                                                    placeholder="Phone Number *" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control " name="email" placeholder="Email *"
+                                                    required>
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-md- text-left">
+                                            <div class="form-group">
+                                                <!-- <input type="text" class="form-control " name="year"
+                                                    placeholder="Your Last Qualification*"> -->
+                                                    <select class="form-control" id="sel1" required>
+                                                        <option>Select Your Course *</option>
+                                                        <option>ACCA</option>
+                                                        <option>IFRS</option>
+                                                        <option>CIMA</option>
+                                                        <option>CGMA</option>
+                                                        <option>CMA</option>
+                                                        <option>CPA</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+            
+                                        <button type="submit" class="btn1" style="background-color:#F26522;"> Submit</button>
+                                    </div>
+                                </form>
                             </div>
-
-                            <div class="col-md- text-left">
-                                <div class="form-group">
-                                    <input type="text" class="form-control " minlength="10" name="phone"
-                                        placeholder="Phone Number*" required>
-                                </div>
-                            </div>
-                            <div class="col-md- text-left">
-                                <div class="form-group">
-                                    <input type="email" class="form-control " name="email" placeholder="Email *"
-                                        required>
-                                </div>
-                            </div>
-
-                            <div class="col-md- text-left">
-                                <div class="form-group ">
-                                    <input type="text" class="form-control " name="year"
-                                        placeholder="Your Last Qualification*">
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn1" style="background-color:#F26522;"> Submit</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- banner for mobile-->
-    <div class="container">
-        <div class="text-mobile">
-            <!--<h2 style="font-size: 24px;"><strong ><span style="font-size: 30px;"> + PGP</span> <br><br>A Data Enhanced Program-->
-            <!--<br>for the Future.</strong></h2>-->
-            <!--<br>-->
-            <!--<p>Saraf is the first & only business school with a Business Analytics & Data Science Program in West Bengal in collaboration with IBM.</p>-->
-            <!--<br>-->
-            <h1 style="margin-top:-60px;"><strong> - <br> </strong></h1>
-            <p><b>Post Graduate Program in Business Analytics & Data Science</b>
-                <br><br>
-            <p><b>A Data Enhanced Program for the Future.</b>
-            </p>
-            <br>
-            <p>Saraf is the first Business School with an in Business Analytics and Data Science Program in West
-                Bengal in collaboration with the global giant IBM.</p>
-            <br>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 banner-form ">
-                    <form action="insert.php" method="post" id="register-now" class="text-center">
-                        <input type="hidden" name="_token" value="PBtxxvax1LXRhK4IL3Cm8Nj0Tw3ggCUHxDiv7ZFh">
-                        <h4 class="text-center" style="margin-bottom: 20px; color:#000;">Register Below</h4>
-                        <div class="row">
-                            <div class="text-left">
-                                <div class="form-group">
-                                    <input type="text" class="form-control " name="name" placeholder="Full Name*"
-                                        required>
-                                </div>
-                            </div>
-
-                            <div class="col-md- text-left">
-                                <div class="form-group">
-                                    <input type="text" class="form-control " minlength="10" name="phone"
-                                        placeholder="Phone Number*" required>
-                                </div>
-                            </div>
-                            <div class="col-md- text-left">
-                                <div class="form-group">
-                                    <input type="email" class="form-control " name="email" placeholder="Email *"
-                                        required>
-                                </div>
-                            </div>
-
-                            <div class="col-md- text-left">
-                                <div class="form-group ">
-                                    <input type="text" class="form-control " name="year"
-                                        placeholder="Your Last Qualification*" required>
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn1" style="background-color:#F26522;">Register Now</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- <div class="row"
-            style="background-color: rgba(255,255,255,0.8); padding: 20px 10px; color: black; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); margin-top: 20px;">
-            <div class="col-xs-6">
-                <h4 style="font-size:16px;"><strong>Ranked Top 5 in<br>East India by<br>Times of India</strong></h4>
-            </div>
-            <div class="col-xs-6">
-                <h4 style="font-size:16px;"><strong>A** Rated B-School<br> by CRISIL</strong></h4>
-            </div>
-            <br><br>
-            <hr>
-            <div class="col-xs-6">
-                <h4 style="font-size:16px;"><strong>Awarded Best Education Brand by Economic Times</strong></h4>
-            </div>
-            <div class="col-xs-6">
-                <h4 style="font-size:16px;"><strong>Placement drive<br>from 400+ Companies</strong></h4>
-            </div>
-        </div> -->
-    </div>
-
-    </div>
-
-    <!-- <div class="container banner-end-applynow">
-        <div class="row" style="">
-            <div class="col-lg-12 text-center">
-                <button style="background-color:#F26522; color:#fff;" class="open-button" >Apply Now</button>
-                <button type="button" data-toggle="modal" data-target="#applyModal" class="open-button"
-                    style="background-color:#F26522; color:#fff;">
-                    Apply Now
-                </button>
-            </div>
-        </div>
-    </div> -->
-    <!-- floating box-->
-
-
-
-
-
-    <!--<div class="container">-->
-    <!--   <div class="row" style="padding:30px 0;">-->
-    <!--       <div class="col-lg-12 text-center">-->
-    <!--<button style="background-color:#F26522; color:#fff;" class="open-button" >Apply Now</button>-->
-    <!--           <button onclick="openFormApply()" class="open-button" style="background-color:#F26522; color:#fff;">-->
-    <!--               Apply Now-->
-    <!--           </button>-->
-    <!--       </div>-->
-    <!--   </div>         -->
-    <!--</div>-->
 
 
     <div class="testimonial-page">
