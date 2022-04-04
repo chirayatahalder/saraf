@@ -4503,6 +4503,7 @@ filter: grayscale(0);
 	.new-banner .new-banner-right{
 		text-align: left;
 		padding-right: 0px;
+		padding-top: 40px;
 	}
 	.new-banner .new-banner-right p{
 		width: 100%;
@@ -4526,7 +4527,7 @@ filter: grayscale(0);
 		display: none;
 	}
 	.new-banner .new-banner-right h1{
-		padding: 0 20px;
+		padding: 20px 20px;
 	}
 	.new-banner .row{
 			margin-right: 0px; 
