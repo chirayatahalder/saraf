@@ -2147,7 +2147,7 @@ h4 strong{
 
   text-decoration: none;
 
-  border-bottom: 1px solid #f26522;
+  border-bottom: 1px solid var(--color-blue);
   position: relative;
 
 }
