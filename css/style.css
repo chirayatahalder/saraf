@@ -334,7 +334,7 @@ nav ul{
 
   padding-top: 100px 10px;
 
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
 
   background-blend-mode: overlay;
 
@@ -353,19 +353,19 @@ nav ul{
 	color: #fff !important;"
 }
 .banner-1{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/2.jpg') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.7) 100%),url('../images/2.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
 }
 .banner-2{
-	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.4) 100%),url('../images/3.jpg') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.7) 100%),url('../images/3.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
 }
 .banner-3{
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5) 100%),url('../images/4.jpg') center/cover !important;
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.7) 100%),url('../images/4.jpg') center/cover !important;
 	background-repeat: no-repeat;
 
 	background-blend-mode:normal;
@@ -3696,6 +3696,9 @@ filter: grayscale(0);
 .about-outer .about-outer-about p{
 	margin-top: 15px;
 }
+.about-outer-about-h p{
+	margin: 10px 0 0 0 !important;
+}
 .about-outer-about-h{
 	height: 320px !important;
 }
@@ -3737,7 +3740,9 @@ filter: grayscale(0);
 .with-saraf .card-wrap{
 	position: relative;
 }
-
+.card .card-wrap h4{
+	width: 60%;
+}
 .with-saraf .card{
 	position: relative;
 	height: auto;
@@ -3917,24 +3922,25 @@ filter: grayscale(0);
 	padding-left: 30px;
 	margin-bottom: 15px;
 	position: relative;
+	line-height: 22px !important;
 }
 .our-learning-platform .right-list ul li::before{
 	content: '';
 	position: absolute;
-	top: 2px;
-	left: 0;
-	height: 20px;
-	width: 20px;
+	top: 5px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
 	background: var(--orange);
 	border-radius: 50%;
 }
 .our-learning-platform .right-list ul li::after{
 	content: '';
 	position: absolute;
-	top: 8px;
-	left: 4px;
-	height: 6px;
-	width: 12px;
+	top: 9px;
+    left: 3px;
+    height: 6px;
+    width: 9px;
 	border-left: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 	transform: rotate(-45deg);
