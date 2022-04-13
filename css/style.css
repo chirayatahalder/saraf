@@ -14,6 +14,16 @@
 
 }
 
+@font-face {
+	font-family: ;
+	src: url(../font/Bebas-Regular.ttf);
+}
+
+@font-face {
+	font-family: ;
+	src: url(../font/BebasNeue\ Bold.ttf);
+}
+
 body{
 
     /* font-family: 'Montserrat', sans-serif; */
@@ -348,7 +358,8 @@ nav ul{
 .banner h1{
 	font-size: 51px !important; 
 	line-height: 53px; 
-	font-family: 'Anybody', cursive !important;
+	/* font-family: 'Anybody', cursive !important; */
+	font-family: 'Bebas-Regular' !important;
 	/* letter-spacing: 2.5px;  */
 	color: #fff !important;"
 }
